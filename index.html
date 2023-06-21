@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MEAN GREEN PARK</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet">
+	<meta name="viewport" content="widht =device-with, initial-scale =1">
+</head>
+<body>
+<section id="banner">
+	<img src="logo.png" class="logo">
+	<div class="banner-text">
+		<h1>Mean Green Park</h1>
+		<p>EASY TO PARK. GO WITH MEANGREENPARK</p>
+		<div class="banner-btn">
+			<a href="#"><span></span>Park Now</a>
+			<a href="#"><span></span>Park Later</a>
+		</div>
+	</div>
+
+
+ 
+</section>
+
+<div id="sideNav">
+	<nav>
+	<ul>
+		<li><a href="#">HOME</a></li>
+		<li><a href="#">Sign in/ Sign Up</a></li>
+		<li><a href="#">Register Your Car</a></li>
+		<li><a href="#">Payment</a></li>
+		
+	</ul>
+	</nav>
+</div>
+<div id="menuBtn">
+	<img src="menu.png" id="menu">
+</div>
+
+<!--Features-->
+
+<section id="feature">
+<div class="title-text">
+<p>Sign In/ Sign Up</p>
+<h1></h1>
+</div>
+<div class="feature-box">
+	<div class="features">
+		<h1>Reserve Your Spot Ahead of Time</h1>
+
+	</div>
+	<div class="features-img">
+		<img src="parking.jpg">
+	</div>
+</div>
+</section>
+
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+	if(sideNav.style.right == "-250px"){
+		sideNav.style.right = "0";
+		menu.src = "close.png";
+	}
+	else{
+		sideNav.style.right = "-250px";
+		menu.src = "close.png";
+	}
+}
+</script>
+
+
+</body>
+</html> 
