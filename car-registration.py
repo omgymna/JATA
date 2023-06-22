@@ -2,14 +2,16 @@
 import time
 
 Vehicle_Number=['XXXX-XX-XXXX']
+Vehicle_Type=['Bike']
 vehicle_Name=['Intruder']
 Owner_Name=['Unknown']
 Date=['22-22-3636']
 Time=['22:22:22']
+bikes=100
 cars=250
 bicycles=78
 def main():
-    global 1cars,bicycles
+    global bikes,cars,bicycles
     try:
         while True:
             print("----------------------------------------------------------------------------------------")
